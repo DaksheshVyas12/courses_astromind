@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-50 text-gray-800;
+}
+
+/* Custom global styles */
+.cosmic-gradient {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
